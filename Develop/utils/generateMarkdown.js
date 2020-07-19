@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   Provide instructions and examples for use. Include screenshots as needed.
   ${data.usage}
   
-  ## **License:**
+  ## **License**
   This project is protected under the ${data.license} license.
 
   ## Contributing
