@@ -1,35 +1,34 @@
 
-  # **shit**
+  # **README Generator**
 
   ## **Description**
-  * fuck
-  * damn
-  * hell
-  
-  ## **License:**
-  This project is protected under the MIT license.
+  * generating a readme using the command line
+  * So the user could efficiently create a readme for their application through the terminal command line
+  * node.js
   
   ## **Table of Contents**
   ### [Installation](#Installation)
   ### [Usage](#Usage) 
   ### [Contributing](#contributing)
-
-  ## **Tests**
-
+    
   ## Installation
-  Please describe the installation process for your project: fuckkk
-
+  Please describe the installation process for your project: type node index.js into the command line
+  
   ## Usage
   Provide instructions and examples for use. Include screenshots as needed.
-  no
+  
+  
+  ## **License:**
+  This project is protected under the MIT license.
 
   ## Contributing
-  i don't want to 
-
-
-
+  npm inquierer package
+  
+  ## **Tests**
+  type node index.js into the command line and answer all of the quetions. the answers will be formulated into a readme file
+  
   ## **Questions**
   * Visit me at [gitHub](http://www.github.com/ryannekillian)
-  * For additional questions, please reach me at: lasdkjfa
-
+  * For additional questions, please reach me at: ryanne.killian@gmail.com
+  
   

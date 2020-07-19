@@ -15,30 +15,31 @@ function generateMarkdown(data) {
   * ${data.why}
   * ${data.how}
   
-  ## **License:**
-  This project is protected under the ${data.license} license.
-  
   ## **Table of Contents**
   ### [Installation](#Installation)
   ### [Usage](#Usage) 
   ### [Contributing](#contributing)
-
-  ## **Tests**
-
+    
   ## Installation
   Please describe the installation process for your project: ${data.installation}
-
+  
   ## Usage
   Provide instructions and examples for use. Include screenshots as needed.
   ${data.usage}
+  
+  ## **License:**
+  This project is protected under the ${data.license} license.
 
   ## Contributing
   ${data.contributions}
-
+  
+  ## **Tests**
+  ${data.tests}
+  
   ## **Questions**
   * Visit me at [gitHub](http://www.github.com/${data.github})
   * For additional questions, please reach me at: ${data.email}
-
+  
   `
 
 }

@@ -54,12 +54,12 @@ const questions = [
         name: 'contributions',
         message: 'List your collaborators, if any, with links to their GitHub profiles.',
       },
+      
       {
         type: 'input',
         name: 'tests',
         message: 'Provide examples for how to run your application.',
       },
-
       {
         type: 'input',
         name: 'github',
