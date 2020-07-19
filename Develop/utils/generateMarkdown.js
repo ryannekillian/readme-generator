@@ -8,27 +8,24 @@ function generateMarkdown(data) {
   //Invoke function to build title secitons passing in correct text
   //Add returned text to ourReadme
   return `
-  # ${data.title}
+  # **${data.title}**
 
-  # Description
+  ## **Description**
   * ${data.what}
   * ${data.why}
   * ${data.how}
   
-  # Table of Contents
-  # Installation
-  # Usage
-  # License
-  # Contributing
-  # Tests
-  # Questions
-
-  * ${data.problem}
+  ## **License:**
+  ${data.license}
   
-
-
-  # License
-  ${data}  
+  ## **Table of Contents**
+  ### [Installation](#Installation)
+  ### [Usage](#Usage) 
+  ### [Contributing](#contributing)
+  ## **Tests**
+  ## **Questions**
+  * [gitHub](http://www.github.com/${data.github})
+  * For additional questions, please reach me at: ${data.email}
 
   `
 

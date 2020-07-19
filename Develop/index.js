@@ -32,17 +32,38 @@ const questions = [
         type: 'input',
         name: 'how',
         message: 'How did you create this project?',
+      }, 
+      {
+        type: 'checkbox',
+        name: 'license',
+        message: 'What license did you use? (Check all that apply)',
+        choices: ['MIT, <img alt="NPM" src="https://img.shields.io/npm/l/inquirer">', 'Apache License 2.0', 'ISC License', 'GNU General Public License v3.0']
       },
       {
         type: 'input',
-        name: 'problem',
-        message: 'What problem does your project solve?',
+        name: 'github',
+        message: 'Enter your GitHub Username',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log('Please enter your GitHub Username!');
+            return false;
+          }
+        }
       },
       {
-        type: 'checkbox',
-        name: 'languages',
-        message: 'What did you create this project with? (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log('Please enter your email!');
+            return false;
+          }
+        }
       },
       
       
