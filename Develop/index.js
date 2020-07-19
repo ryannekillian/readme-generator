@@ -37,8 +37,29 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'What license did you use? (Check all that apply)',
-        choices: ['MIT, <img alt="NPM" src="https://img.shields.io/npm/l/inquirer">', 'Apache License 2.0', 'ISC License', 'GNU General Public License v3.0']
+        choices: ['MIT', 'Apache License 2.0', 'ISC License', 'GNU General Public License v3.0']
       },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?',
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'Provide instructions and examples for use. Include screenshots as needed.',
+      },
+      {
+        type: 'input',
+        name: 'contributions',
+        message: 'List your collaborators, if any, with links to their GitHub profiles.',
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'Provide examples for how to run your application.',
+      },
+
       {
         type: 'input',
         name: 'github',
