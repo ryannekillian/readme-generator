@@ -12,9 +12,12 @@
     
   ## Installation
   Download the file and make sure you have the correct version of npm installed.
-  
+   
   ## Usage
   ![screenshot](./Develop/screenshot.png)
+  
+  Here is a quick tutorial of how the app is used:
+  https://drive.google.com/file/d/10XmNWbjZDr0ZAqW1TepJIZ-FAP_xwc_T/view
     
   ## **License:**
   This project is protected under the MIT license.
