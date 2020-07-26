@@ -14,6 +14,9 @@
   ## Installation
   Please describe the installation process for your project: type node index.js into the command line
   
+  Here is a link to my screencastify for further instructions on the use of this project:
+  https://drive.google.com/file/d/10XmNWbjZDr0ZAqW1TepJIZ-FAP_xwc_T/view
+  
   ## Usage
   Provide instructions and examples for use. Include screenshots as needed.
   
